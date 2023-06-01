@@ -89,63 +89,27 @@ _至少需要300x300毫米的打印床！!_
 
 
 <!-- ABOUT THE PROJECT -->
-## About Nevermore Max
+## 关于Nevermore Max
 
 
 
-Why a Max when the Micro works well? The little bugger is an easy print, nimble, looks great... Why bother making a large unit chewing filament?
+为什么要选择一个Max，而不是一个Micro？那个小的家伙打印简单，灵活，看起来很棒......为什么要费力去制造一个大的、可以咀嚼打印材料的单位呢？
 			 
-	 Well - there are a few reasons, that may or may not affect your decision on what filter is best for you.
+	有几个原因，可能会影响你选择什么类型的过滤器最合适。
 			  
-	1. We're **LAZY**. A micro cartridge is small and may not last very long. Some will 
-	have filament smell again in two weeks.   And while the change is quick and easy,
-	its still a chore! A Max has 20x the carbon. 20x the carbon lasts...longer.  
+	1. 我们很懒。微型滤芯很小，可能不会持续很长时间。有些人两周后就会再次闻到打印材料的气味。而即使更换很快很容易，但仍然是个烦恼！Max有20倍的活性炭。20倍的活性炭可以持续更长的时间。
 	
-	2. We need **BETTER**. Carbon filtration gets better and better the deeper the carbon 
-	bed. At the small airflow area of a micro, a deep bed quickly chokes air flow. 
-	Ever wondered why a Micro XL cartridge is only 10mm longer than a standard cartridge? 
-	Air flow degrades _that_ fast. The surface area of a micro cartridge is just 
-	above 1000 mm2. A hefty max filter increases that over ten times at the inside 
-	perimeter, and 50 times on the outside perimeter. This means the same powered
-	fan could move _much_ more air at _less_ pressure drop.  
+	2. 我们需要更好。随着活性炭深度越深，碳过滤效果就会越好。在微型滤芯的小气流区域，深层的滤芯迅速会阻塞气流。你是否曾想过为什么Micro XL滤芯只比标准滤芯长10mm？气流下降得_this_快。微型滤芯的表面积略高于1000 mm2。一个健硕的Max滤芯在内圈内增加了十倍以上，在外圈内增加了50倍。这意味着同样的风扇可以在_less_压力降低的情况下移动_更_多的空气。 
 	
-	3. We catch **PARTICLES**: 3D printer extrusion creates both VOCs and particles. 
-	The micro focuses on VOCs, as thats what give off the worst smell and has direct 
-	toxic effects, and are difficult to catch once outside of the print chamber. 
-	Yet again, PM particles are among the leading causes of death in the world and 
-	shouldn't be ignored. I've advocated using a regular room-size HEPA for particles 
-	in conjunction with a micro before, but with the Max a HEPA filtration system is
-	 built in. 99+ per cent of particles created by your printer will be removed 
-	 every pass and you wont add dirty air to your room or lungs.  
+	3. 我们需要捕捉颗粒物：3D打印机挤出会产生VOC和颗粒物。微型滤芯侧重于VOC，因为这是最恶臭并具有直接毒性效应的物质，一旦溢出打印室就很难捕捉。但同时，PM颗粒物是世界上导致死亡的主要原因之一，不能忽视不计。我之前曾主张在微型滤芯的基础上与普通房间规模的HEPA过滤器一起使用，但Max内置HEPA过滤器系统。每次通过过滤器时，你的打印机制造的99％以上的颗粒物将被清除，并且你不会让肮脏的空气进入你的房间或肺部
 	 
-	4. We need **COOLER**: 3D printing and 3D printing filtration require different things.
-	For instance, we _love_ to have a 60C chamber for less ABS warping. At the same
-	time, with increasing heat, the VOCs get more heat energy and desorb from the 
-	carbon. Sensor testing has shown that turning on a well used carbon filter can 
-	_increase_ chamber VOCs. Anything above 50C is generally not good for bads stuff to
-	stay attached to the carbon. And while the micro has been shown to work even at 
-	80C intake air under a heated bed, it most definitely decreases the time between 
-	carbon changes a lot! Having the filter unit outside of the printer allows for the
-	carbon to be a few degrees cooler than the printer. That does much for longevity.  
+	4. 我们需要降温:3D打印和3D打印过滤需要不同的东西。例如，我们希望拥有60摄氏度的加热室，以减少ABS的翘曲。同时，随着温度的增加，VOCs获得更多的热能，并从碳中脱附。传感器测试表明，打开使用时间较长的活性炭过滤器会_increase_室内VOCs。任何高于50°C的温度总的来说都不利于不良物质留在活性炭上。虽然微型滤芯已被证明可以在加热床下的80°C的进气温度下工作，但它肯定会大大缩短碳更换的时间！将过滤器单元放在打印机的外部可以让活性炭比打印机稍微降温几度。这对于延长使用寿命有很大帮助。
 	   
-	5. We haz to needz **TECHz**: More space for cooler gadgets. Ever wondered when 
-	its time to swap carbon? Well, on the max you could add VOC sensors to both intake
-	and exhaust and measure how well the filter is doing its job! Thanks to Dr Dave
-	there are even data on which sensors reliably detect the aromatic VOCs we strive
-	to catch (a lot of sensors hardly detect extrusion VOCs at all as they are intended
-	for other applications). I've chosen to divide the project into a Basic version
-	with just HEPA+carbon+fan, but entirely upgradeable to the Pro version 
-	including VOC sensors (temp, humidity, filter efficiency), LED/Screen
-	/Controller board, servo carbon sealing for (optimal carbon longevity with no
-	room VOC carbon depletion) and a 4010 exhaust (negative pressure+vent 
-	control).  
+	5. 我们需要高科技：更多的空间来放置更酷的装置。你曾经想过何时更换活性炭吗？在Max上，你可以在进风口和排风口上都添加VOC传感器，以及测量过滤器的效果！由于Dr Dave提供的数据，有些传感器可以可靠地检测我们努力捕捉的芳香VOC（很多传感器几乎不能检测挤出VOC，因为它们是为其他应用而设计的）。我选择将项目分为基本版（只包括HEPA+活性炭+风扇），但完全可升级到专业版，包括VOC传感器（温度、湿度、过滤效率）、LED/屏幕/控制板、伺服碳密封（最佳活性炭寿命，无室内VOC碳耗）和4010排气（负压+通风控制）。
 
-	7. Less **NOISE**: Lets face it. A high powered 5015 creates some noise. Two creates
-	even more. By increasing the size of the carbon filter, decreasing pressure drop,
-	we can run the filter fan slower while still getting the same air flow. We can 
-	run the fan at a higher rpm:s and clean the chamber in a jiffy as well.  
+	7. 降低噪音：让我们直面现实吧。高功率的5015会产生一些噪音。两个会产生更多。通过增加活性炭过滤器的尺寸，减小压力降，我们可以使过滤器风扇以更慢的速度运行，同时仍然获得相同的空气流量。我们可以以更高的转速运行风扇，并且快速清洁室内空气。
 			    
-			  Convinced? Well, then the Max is for you!	
+			 被说服了吗？那么Max就是适合你的！	
 			  
 			
 <!-- GETTING STARTED -->
