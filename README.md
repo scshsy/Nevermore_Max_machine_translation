@@ -16,37 +16,37 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-**BETA FILES AND CAD ARE ALL ONLINE** 
+**测试版文件和CAD模型都已经在线上了。** 
 
 
-_300x300mm print bed minimum!_
+_至少需要300x300毫米的打印床！!_
 
 
-**0.2 layers, 0.4 nozzle recommended [0.6+Aarachnae under evaluation]**
+**建议使用0.2层厚度，0.4喷嘴[0.6+Aarachnae正在评估中]。**
 
-PRINTING GUIDE:
-
-
-**FRAME:**
-
-VERY WARP-PRONE WITH STANDARD ABS! Even if you never have warping issues otherwise, this is at the very edge of plastics cooling stresses. I have printed this successfully with TitanX, other users have had good results with ESun ABS+. As it will never be subject to PETG TG temperatures outside the chamber that can be a good option too. Extra adhesion precautions should be taken (lower z offset with horizontal compensation, nano adhesive, hotter bed or possibly chamber temps, etc). Also dont forget to **tape down your flex bed** or your flex bed may become the warping point instead.
+打印指南：
 
 
+**框架:**
 
-**PANELS**
-
-
-Panels have A LOT of surface area. If you do not use filament that pops off from the bed when cool - a need to flex your bed to remove parts - there is a certain risk that a thin PEI surface (0.15-0.30 mm thicknesses or therabouts) will be pulled off in spots with high adhesion, causing bubbles in your PEI. If you have thin PEI, or any other thin surface that can be damaged, please use a release layer between the print and bed (my simple household go-to for PEI+ABS is some corn starch dissolved in water and evaporated after being brushed onto the hot bed. Parts will release easily and any starch residue on the print or bed just washes off with water).
-
-**Carbon Baskets**
+非常容易翘曲，尤其是用标准ABS材料打印！即使你从未遇到过翘曲问题，这也处于塑料冷却应力的边缘。我已经成功地用TitanX打印了这个模型，其他用户用ESun ABS+也有不错的效果。由于它永远不会受到PETG TG温度的影响，所以这也可以是一个很好的选择。需要采取额外的附着预防措施（使用水平补偿调整z轴偏移量、纳米粘合剂、更高的床温或者可能的温室温度等）。同时也不要忘记将弹性床板贴好，否则弹性床板可能会成为变形的来源。
 
 
-The unbridged mesh extrusions keeping the pellets inside the filter are usually 0.4mm high and 0.8mm wide. They print best if the width is split in two lines (with some overlap, 0.4-0.46 should do it, check in your slicer) and the height is also split in two layers (allowing the first layer to be printed at a slightly lower extrusion multiplier as per bridging settings, and the second be a regular supported layer).
 
-**Other parts**
-The other parts should print like most other prints. 
+**面板**
 
-**9/9: INSTALL GUIDE ADDED**
+
+面板具有大量的表面积。如果你不使用冷却后会从床上松落的丝路 - 需要弯曲你的床才能移除零件 - 有一定的风险，薄的PEI表面（0.15-0.30毫米厚度或者相近的厚度）会被拉开，导致PEI上出现气泡。如果你有薄的PEI或其他易受损的表面，请在打印和床之间使用一层释放层（我通常使用玉米淀粉溶解在水中，然后刷涂在热床上，等它蒸发后即可，对于PEI和ABS的组合，而言，零件将容易释放，任何留在零件或床上的淀粉残留物可以用水洗掉）。
+
+**碳筐**
+
+
+未桥接的网格抽出物将颗粒物保留在过滤器内，通常高度为0.4毫米，宽度为0.8毫米。如果宽度分为两行（有一定的重叠，0.4-0.46应该可以，可以在你的切片软件中检查），打印效果最佳。高度也应分为两层（允许第一层以稍低的挤出倍率进行打印，如桥接设置所述，第二层为常规支撑层）。
+
+**其他零件**
+其他零件应该像其他打印件一样打印。
+
+**9/9：增加了安装指南。**
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -60,7 +60,7 @@ The other parts should print like most other prints.
     <img src="Images/Nevermore_Max_v2_Beta_2.png" alt="Angle2">
   </a>
 
-  <h3 align="center">Nevermore Max 3D printer Air Filter</h3>
+  <h3 align="center">Nevermore Max 3D打印机空气过滤器</h3>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
