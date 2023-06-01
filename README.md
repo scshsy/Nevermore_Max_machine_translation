@@ -64,26 +64,26 @@ _至少需要300x300毫米的打印床！!_
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>Table of Contents</summary>
+  <summary>目录</summary>
   <ol>
     <li>
-      <a href="#About-The-Nevermore">About: Why a Nevermore Max?</a>
+      <a href="#About-The-Nevermore">为什么要选择Nevermore Max？</a>
       <ul>
-        <li><a href="#Why">Why Nevermore?</a></li>
-		<li><a href="#But-we-already-have-a-filtered-exhaust">But we already have a filtered exhaust?</a></li>
-		<li><a href="#I-have-worked-with-plastics-and-I-am-fine">I've worked with plastics, and I'm fine!</a></li>
+        <li><a href="#Why">为什么选择Nevermore？</a></li>
+		<li><a href="#But-we-already-have-a-filtered-exhaust">但我们已经有过滤排气系统了？</a></li>
+		<li><a href="#I-have-worked-with-plastics-and-I-am-fine">我已经处理塑料很久，没问题！</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">入门指南</a>
       <ul>
-        <li><a href="#BOM">BOM and Sourcing Guide</a></li>
-        <li><a href="#installation">Installation</a></li>
-		<li><a href="#Built-with">Built with</a></li>
+        <li><a href="#BOM">物料清单和采购指南</a></li>
+        <li><a href="#installation">安装</a></li>
+		<li><a href="#Built-with">使用的材料</a></li>
       </ul>
     </li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#contributing">贡献</a></li>
+    <li><a href="#license">许可证</a></li>
   </ol>
 </details>
 
