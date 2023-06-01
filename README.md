@@ -118,12 +118,13 @@ _至少需要300x300毫米的打印床！!_
 	   
 	5. 我们需要高科技：更多的空间来放置更酷的装置。你曾经想过何时更换活性炭吗？在Max上，你可以在进风口和排风
 	口上都添加VOC传感器，以及测量过滤器的效果！由于Dr Dave提供的数据，有些传感器可以可靠地检测我们努力捕捉的
-	芳香VOC（很多传感器几乎不能检测挤出VOC，因为它们是为其他应用而设计的）。我选择将项目分为基本版（只包括HEPA+活性炭+风扇），
-	但完全可升级到专业版，包括VOC传感器（温度、湿度、过滤效率）、LED/屏幕/控制板、伺服碳密
-	封（最佳活性炭寿命，无室内VOC碳耗）和4010排气（负压+通风控制）。
+	芳香VOC（很多传感器几乎不能检测挤出VOC，因为它们是为其他应用而设计的）。我选择将项目分为基本版（只包括HEPA+
+	活性炭+风扇），完全可升级到专业版，包括VOC传感器（温度、湿度、过滤效率）、LED/屏幕/控制板、伺服碳密	封（
+	最佳活性炭寿命，无室内VOC碳耗）和4010排气（负压+通风控制）。
 
 	7. 降低噪音：让我们直面现实吧。高功率的5015会产生一些噪音。两个会产生更多。通过增加活性炭过滤器的尺寸，
-	减小压力降，我们可以使过滤器风扇以更慢的速度运行，同时仍然获得相同的空气流量。我们可以以更高的转速运行风扇，并且快速清洁室内空气。
+	减小压力降，我们可以使过滤器风扇以更慢的速度运行，同时仍然获得相同的空气流量。我们可以以更高的转速运行风
+	扇，并且快速清洁室内空气。
 			    
 			 被说服了吗？那么Max就是适合你的！	
 			  
@@ -138,14 +139,13 @@ _至少需要300x300毫米的打印床！!_
 ### 组装清单和采购指南
 有关采购指南、详细信息和材料清单，请查看：[BOM](BOM.md)
 
-Instead of ultra thin bolts, m3 lap top screws seems to work as well and are readily available (https://www.ebay.com/itm/185540026013?var=693379492797)
+与超薄螺栓不同，m3笔记本电脑螺钉似乎也很适用，并且容易购买。 (自己推敲&淘宝)
 
-### Installation
-The installation guide is under development, the alpha presentation  should take you 90% of the way:
-[Installation Guide](https://www.canva.com/design/DAFLeYZF86Y/dYEmVobjTJoAHgrsha3OjA/view?utm_content=DAFLeYZF86Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+### 安装
+安装指南正在开发中，alpha版演示应该能帮助你完成90%的安装：[安装指南](https://www.canva.com/design/DAFLeYZF86Y/dYEmVobjTJoAHgrsha3OjA/view?utm_content=DAFLeYZF86Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
-### Built with
-The Voron nevermore Air Filter was modelled in [Fusion 360](http://autodesk.com).
+### 建模软件
+Voron Nevermore空气滤清器是在[Fusion 360](http://autodesk.com)中建模的
 
 <!-- USAGE EXAMPLES -->
 
