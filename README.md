@@ -133,61 +133,64 @@ Voron Nevermore空气滤清器是在[Fusion 360](http://autodesk.com)中建模�
 <!-- USAGE EXAMPLES -->
 
 
-### Why
+### 哈？
 
-At the end of the day, a fresh single-pass filtered exhaust (at brand new) has perhaps 70% VOC removal efficiency while still exhausting 30% of the nasty into the air you breathe. A recirculation filter achieving four passes at worn-in 50% efficiency could still remove 94% of the bas stuff. Or 99% at six passes!
+说到底，新的单程过滤排气（在全新状态下）可能有70％的VOC去除效率，同时仍会将30％的有害物质排放到你呼吸的空气中。在磨损50％效率条件下实现四次循环过滤器，仍可以去除94％的有害物质。或者六次循环可以去除99％！
 
-The number of passes you get all depends on how well you can seal your build chamber. The better sealed the chamber, the less room VOCs will circulate the carbon and deplete the filter too (VOCs from onions, wall paper or farts might not be as unhealthy as melted plastics VOCs, but they block space in the carbon all the same).
+你可以获得的通道数取决于您密封建筑室内的程度。密封室越好，VOCs循环到碳中并耗尽滤网的空间就会越少（洋葱、墙纸或屁等VOCs可能不像熔化塑料VOCs那样不健康，但它们仍然在碳中占据空间）。
 
-Some will have a hard time achieving a good chamber seal, which creates the biggest drawback of recirculation filters - they're air flow neutral. Meaning, as nothing pulls air into the chamber, air can diffuse freely to the outside through any remaining gaps. And that air could be <i>zero per cent</I> cleaned...
+一些人可能难以实现良好的密封室，这是回收过滤器最大的缺点-他们是空气流量中性。意思是说，由于没有东西将空气拉入房间，通过任何剩余缝隙空气可以自由扩散到外部。而且那些空气可能完全没有被清洁......
 
-To both have the cake and eat it (yes you can!), a Max can incorporate a 4010 exhaust fan, that is used to keep a slight negative pressure inside the chamber - air will still just get pulled _into_ the chamber through any remaining cracks, not leak outside. Don't ramp it up high, its meant to just barely evict air so that the majority of air flow through the filter is still recirculated.
+为了既能拥有蛋糕又能吃蛋糕（是的，你可以！），Max可以整合一个4010排风扇，在房间内维持微弱的负压-空气仍会通过任何剩余的裂缝被拉入房间，而不是漏到外面。不要将它调高，它只是为了轻轻驱逐空气，这样通过滤网的大部分空气流量仍然是循环的。
 
-Air evicted through the exhaust will at least have passed through the carbon filter, dust-filter and HEPA filter at least once (hopefully many more times) - so its a good security measure to have if you don't want to bet on your chamber being hermetically sealed.
-
-
-### But we already have a filtered exhaust?
-
-Yup, but aside from being one-pass, regular mesh carbon filters mainly consists of...mesh. And active carbon sprinkle - miniscule amounts, not meant to be used 24/7 in a 3d printer.
-
-Just running regular  air through a mesh filter will still deplete it in weeks (carbon can't opt to just bind the nasty stuff). Filter exposed to air depletes it too, in time. Friggin' everything depletes carbon. Thats why we need *more*.
+通过排气排放的空气至少经过了碳过滤器、除尘器和HEPA过滤器至少一次（希望多次）-因此，如果您不想押注于室内密封性非常好，则这是一个很好的安全措施。
 
 
-<b>The Nevermore</B> has a <i>kilo</i>, or two pounds, of active carbon. Not single-digit grams. And its can be sealed off from the surroundings, so when its not running, its not depleting. Any off-gassing between prints will likewise be kept inside the filter! And when is does run, it has a lot of VOC binding capacity! At least a hundred times more compared to a generic solder fume carbon mesh filter. 
+### 但是我们已经有过滤排气了？
 
-This is the filter for the low maintenence crowd (who still want to be safe).
+是的，但是除了一次性过滤之外，普通的网状活性炭过滤器主要由...网状材料组成。而且活性炭颗粒量很少，不适合在3D打印机中24/7使用。
 
-### I have worked with plastics and I am fine!
+仅仅通过网状过滤器运行普通空气，几周内就会耗尽活性炭（碳不能选择只结合有害物质）。长时间暴露在空气中的过滤器也会耗尽活性炭。几乎一切都会消耗活性炭。这就是为什么我们需要更多的原因。
 
-If you live alone - not impacting other people – and feel that way, this filter is not for you! <br>
-After all, you’re perfectly allowed to smoke two packs a day or become a opposition politician in Russia too, even though it’s probably not optimal for your health. And on an individual level one can never be sure what the health effects will be, if any - the oldest person ever used to smoke until she was 118 years or so…
 
-But speaking of what we do know, we can say for sure that:<BR>
+Nevermore拥有一千克（约两磅）的活性炭，而非单位克数。并且它可以与周围环境隔离，所以当它不运行时，它不会消耗活性炭。在打印过程中产生的任何挥发性气体也会被留在过滤器内！而当它运行时，它具有很高的VOC结合能力！至少比普通的焊接烟雾活性炭网过滤器高出百倍。
 
-The WHO:s <I>International Agency for Research of Cancer (IARC)</i> classifies chemical compounds based on the known evidence of human carcinogenics, into four classes (<I>carcinogenic, probably carcinogenic, possibly carcinogenic or not classifiable as carcinogenic to humans</i>).<BR><BR>
-Most chemicals fall into the last category, but in the known carcinogenic groups we find several known 3d printer byproducts:<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B>o Benzene</b><BR>
-One of the main fumes from ABS printing. 3ppm regarded as safe, whereas up to 280 ppm of VOCs are produced ABS printing every hour in a small space. Proven to cause different leukemias, and suspected of causing a multitude of other cancers. Female workers in a shoe factory exposed to 40ppm for a long time had a hundredfold higher risk of dying from breast cancer, for instance. Class 1 carcinogenic.<br><BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>o Styrene</B><BR>
-Main pollutant in ABS fumes, recently upgraded from possible to probable carcinogenic based on mounting evidence of connection with a close to tripled risk of different leukemias.<br><BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B>o Butadiene</b><BR>
-Another component of ABS printing, and the reason why styrene didn’t get the carcinogenic label for so long (as both are ABS byproducts it was long impossible to know if a cancer type was due to butadiene or styrene. Butadiene is also a known cause and/or cofactor in cardiovascular disease, so you might get your heart attack or stroke a few years earlier by breathing it in for a long time.<br><br>
-<u>Other knowns:</U><br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• What creates the most particles/VOCs from plastics handling is <i>heated extrusion</i>.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Injection molding, vacuum forming and other common industrial methods creates less air pollutants due to less melted plastic surface per kg with direct air/oxygen access/airflow.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• 3D printing extrusion takes this to another VOC creation level, as you’re extruding thin layer by thin layer, not trapping any of the extruded melted material from access to oxygen or airflow. Thus, per kilogram of product, it’s the most particle and VOC generating plastic process there is.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Home 3d printers are often used in places without industrial ventilation or industrial wet scrubbing. Indeed, a recent study showed that levels of VOC carcinogenics in plastics recycling plants using heated extrusion processes were mostly within safe limits. However, in surrounding residential homes of those safe-to-work plants, VOC levels were up to <B>42 times</b> the safe limits and consisted of the ventilated byproducts from the plastic plants, due to lower ventilation requirements in homes. The study showed a clear increased lifetime cancer risk, even for the workers in the plants.<br><br>
+这是一款适合低维护需求的人群（但仍希望安全使用）的过滤器。
 
-This is a short list of some key knowns, and only address the most common ABS fumes. Other materials have different VOCs. PETG for instance, releases Toluene, Acetaldehyde, Formaldehyde – all of which are known health hazards. Regular PLA and Nylons without additives are usually safer, but still release lower levels of acetone, methyl-methacrylate, and iso-butanol (PLA) and Propylene Glycol and Cyclopentanone (Nylon). Not all fumes are created equal.<br><br>
+### 我也曾与塑料制品打过交道，一切都很好！
+
+如果你独自生活——不影响其他人——并且这样认为，那么这款过滤器不适合你！
+毕竟，你完全可以每天抽两包烟或者成为俄罗斯的反对派政治家，尽管这可能对你的健康并不理想。在个人层面上，我们永远无法确定具体的健康影响是什么（如果有的话）——有史以来年龄最大的人曾一直抽烟，直到她118岁左右……
+
+但是在谈论我们所知道的事情时，我们可以肯定地说：
+
+世界卫生组织的国际癌症研究机构（IARC）会根据已知的对人类致癌物证据，将化学物质分为四类（致癌物、可能致癌物、可能致癌物或不可归类为对人类致癌物）。
+
+大多数化学物质属于最后一类，但在已知的致癌物组中，我们发现了一些3D打印机副产物： 
+	     
+ o 苯 ABS打印过程中的主要烟雾之一。3ppm被认为是安全的，而在小空间内，每小时ABS打印产生高达280ppm的VOCs。已被证明会导致不同类型的白血病，并且被怀疑会导致其他多种癌症。例如，长期暴露于40ppm浓度下的女性鞋厂工人患乳腺癌死亡的风险增加了一百倍。1类致癌物。
+
+ o 苯乙烯 ABS烟雾中的主要污染物，最近从可能致癌物升级到可能致癌物，因为越来越多的证据表明它与不同类型白血病风险接近三倍有关。
+
+       o 丁二烯
+ ABS打印的另一个组成部分，也是苯乙烯长时间没有被贴上致癌物标签的原因（因为这两者都是ABS副产物，所以很长时间无法判断某种癌症是由于丁二烯还是苯乙烯引起）。丁二烯还是已知的心血管疾病原因和/或促成因素，因此长时间吸入可能会提前几年发生心脏病发作或中风。
+
+其他已知事实：
+
+       • 处理塑料最容易产生颗粒/VOCs 的环节是加热挤压。
+       • 注塑成型、真空成型和其他常见的工业方法由于较少的直接空气/氧气接触/气流下熔融塑料表面积而产生较少的空气污染物。
+     • 3D打印挤压使这一VOCs创造过程达到另一个水平，因为你是逐层挤压薄材料，没有限制任何挤出的熔融材料接触氧气或气流。因此，按每公斤产品计算，这是最具颗粒和VOCs生成能力的塑料加工过程。
+       • 家用3d打印机通常在没有工业通风或工业湿法洗涤设备的地方使用。事实上，一项最近的研究显示，在使用加热挤压工艺的塑料回收厂内，VOC致癌物水平大多在安全范围内。然而，在那些安全作业厂房周边的住宅区，由于住宅通风要求较低，VOC浓度高达42倍安全限值，并由塑料厂排放的废气组成。研究表明，在这些地区居民终身患癌风险明显增加，甚至包括工厂内的工人。
+
+这只是一些已知事实的简短列表，且只针对最常见的ABS烟雾。其他材料会产生不同的VOCs。例如，PETG会释放甲苯、乙醛、甲醛，这些都是已知的卫生危害物质。普通PLA和不含添加剂的尼龙通常更安全，但仍然会释放较低浓度的丙酮、甲基丙烯酸甲酯和异丁醇（PLA）以及丙二醇和环戊酮（尼龙）。并非所有烟雾都一样。
 
 
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## 贡献
 
-Please contribute! I'd like to incorporate VOC sensors, making the filter smart (running on low-noise mode at an acceptable VOC level, then ramp up at the end to clean more thoroughly before doors open).
-
+请多提建议！我希望能够整合VOC传感器，使过滤器更智能化（在可接受的VOC水平下以低噪音模式运行，然后在结束时加速运行以在开门前更彻底地清洁空气）。
 
 <!-- LICENSE -->
 ## License
