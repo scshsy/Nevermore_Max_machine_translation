@@ -5,7 +5,7 @@
 
 | 零件            | 名称                                    | 链接                                                                                                                                                                                       | 备注                          |
 | ---------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------- |
-| 风扇（好像是2选1） | DELTA BFB0712HF 65mm GPU风扇            | [https://aliexpress.com/item/1005002292969724.html](https://aliexpress.com/item/1005002292969724.html)                                                                                     |                                  |
+| 风扇（2选1） | DELTA BFB0712HF 65mm GPU风扇            | [https://aliexpress.com/item/1005002292969724.html](https://aliexpress.com/item/1005002292969724.html)                                                                                     |                                  |
 |                  | Sanyo 9TD12P6G001风扇                       | [https://www.mouser.de/ProductDetail/Sanyo-Denki/9TD12P6G001?qs=wnTfsH77Xs4c5b4Mut4mCw%3D%3D](https://www.mouser.de/ProductDetail/Sanyo-Denki/9TD12P6G001?qs=wnTfsH77Xs4c5b4Mut4mCw%3D%3D) |                                  |
 | 密封             | 2mm 海绵条，推荐硅胶海绵条                | [https://aliexpress.com/item/1005002727229276.html](https://aliexpress.com/item/1005002727229276.html)                                                                                     | 罩与框架密封                      |
 |                  | 3mm 海绵条，推荐硅胶海绵条                | [https://aliexpress.com/item/1005002727229276.html](https://aliexpress.com/item/1005002727229276.html)                                                                                     | 框架密封                         |
@@ -41,53 +41,53 @@
 | 活性炭与过滤器   | 活性炭                                  | [https://www.fabreeko.com/products/nevermore-carbon](https://www.fabreeko.com/products/nevermore-carbon)                                                                                   |                                  |
 |                  | 过滤器  (4 pieces)                     | [https://aliexpress.com/item/1005001615722382.html](https://aliexpress.com/item/1005001615722382.html)                                                                                     |                                  |
 
-## Sourcing Guide
+## 采购指南
 
-**PANELS**
-* Front panel in 6mm or 1/4" transparent plastic. Polycarbonate, PET or *molded* Acrylic will work fine. 
-Size depends on your material of choice for Max because of shrinkage factor. Actual measurements TBD (slightly smaller than 300x300mm).
+**面板**
+* 前面板采用6mm或1/4英寸透明塑料。聚碳酸酯、PET或模压丙烯酸树脂都可以使用。
+尺寸大小取决于您选择的Max材料，因为收缩因子会影响尺寸。实际尺寸待定（略小于300x300mm）。
 
-* Mid and back panels are now 3D printed!
+* 中间和后面板是3D打印的！
 
-**FANS**
+**风扇**
 
-Center fan has two options:
-* **Sanyo 9TD12P6G001** - the *expensive* choice. A 70x20mm radial blower capable of over 500Pa of static pressure or >40cfm, excellent build quality and made to work in up to 70C temperatures, as well as low noise capability. Its very pricey ($50), and has been hard to get hold of during the chip shortage
-* **DELTA BFB0712HF 65mm GPU fan** - the *other* choice. Was originally made to push a lot of air through restrictive and hot 1060 graphics card coolers, and should hold upp well for this similar job. On Ali they go from as low as $5 up to about $15, and are thus a lot more affordable and practically always in stock. They also perform *almost* as well as the Sanyo.
+中心风扇有两个选项:
+* **Sanyo 9TD12P6G001** - 昂贵的选择。这是一款70x20mm的径向鼓风机，静压可达500Pa以上，气流量＞40cfm，制造质量优秀，可在高达70°C的温度下工作，并且具有低噪音性能。但它非常昂贵（50美元），在芯片短缺期间很难买到。
+* **DELTA BFB0712HF 65mm GPU风扇** - 另一个选择。最初用于将大量空气推送到限制性和高温的1060显卡散热器中，对于这项类似的工作应该也能表现良好。在阿里巴巴上，它们的价格从低至5美元到大约15美元不等，因此价格更为实惠且库存充足。它们的性能几乎与Sanyo相当。
 
-**SEALING**
+**密封**
 
-* *2-3mm* **neoprene/silicone/rubber *sponge cord*** (~2meters). The *soft and squishy kind*, Shore 00 range hardness (anything around 50 +-15 will work well). 
-* *5mm* wide **closed cell foam tape** *or* **self expanding PU tape** (mainly for sealing of the back panel or possibly under the front panel if not using 3mm sponge cord - not too thick, made to cover a ~1mm gap or so).
-* **RTV.** Preferably clear or in the color of your printed panels (or side shrouds, if not using 2mm sponge cord)
+* 2-3mm 丁腈橡胶/硅橡胶/橡胶海绵绳（约2米）。柔软易挤压的类型，邵氏硬度为00范围（大约50 ±15都可以很好地工作）。
+* 5mm宽的闭孔泡沫胶带或自膨胀PU胶带（主要用于密封后面板，或者在前面板下方如果没有使用3mm海绵绳时也可以使用——不要太厚，用于覆盖约1mm的间隙）。
+* RTV硅橡胶。最好是透明的，或者与您打印的面板（或侧板罩，如果没有使用2mm海绵绳）颜色相同。
 
-**BOLTS, HEAT INSERTS, HEX NUTS**
+**螺栓，热插件，六角螺母**
 
-See table for all the required material. For the **ULTRA THIN HEAD** use Misumi CBSKE-8 or similar with flat head and head thickness <=0.8mm. For reference, a M3 SHCS bolt head is 3mm and a BHCS bolt head is 1.6mm. These are more difficult to source, therefore the linked ultra thin heads are 0.8 - 1mm.
+请参阅表格了解所需的所有材料。对于超薄头，请使用 Misumi CBSKE-8 或类似产品，具有平头且头厚度 <= 0.8mm。作为参考，M3 SHCS 螺栓头为 3mm，BHCS 螺栓头为 1.6mm。这些螺栓较难采购，因此链接中的超薄头厚度为 0.8 - 1mm。
 
-**OPTIONAL ELECTRONICS**
-Please note that they are only needed for the pimped up Pro version of the Max.
+**可选电子设备**
+请注意，这些仅适用于 Max 的升级版 Pro 版本。
 
-**CARBON and FILTERS**
+**碳和过滤器**
 
-* **Active carbon:** 4mm activated  carbon pellets. Pellets are preferred because they're less dusty and has lower pressure drop than granules (GAC). 4x6 mesh GAC is the most similar to 4mm pellets if thats what you can get hold of. 4x8 mesh and smaller will impact air flow due to higher pressure drop, but potentially increase filtering efficiency for air that *does* pass through.
-
-
-  * When sourcing the *optimal carbon* for 3D printer VOC adsorbtion, look for ***virgin coconut*** or ***anthracite*** carbon, not wood/bitumen/charcoal/bamboo/lignin. Why are these better? Well, while there are certain high grade, say bituminous activated carbon, there are also even more low grade bituminous carbon. For virgin coconut and anthracite from a vetted supplier, you'd be hard pressed to get bad carbon for #D printer VOC filtration. Grade and porosity matters;
-	* Porosity for each and every source varies greatly (i.e, for aquarium or moonshine use you want large *macroporosity* to filter larger impurities, like oils. For that reason, water/liquid use carbon  has a large macropore area, defined as >100nm. Printer VOCs are generally less than 0.5 nm, meaning that for optimal capture rate and efficiency we want carbon with a high *microporosity* ratio, defined as <1nm). 
-	* A higher **iodine count** >1000 usually indicates at least some micro/mesoporosity, and a higher **hardness** (>95%) will create less dust in air filtration. CTC number doesn't translate well to our VOCs, but toluene/benzene adsorbtion - which sometimes is available - is a good metric. 
-	* **Avoid acid washed carbon**. Residues from bad acid washed carbon have oxidized printers! Go for steam activated, non acid-washed. By not using pH treated carbon, you will also adsorb a larger range of gasses.  A blend of different pH adsorbants might be the best choice in the future, but is currently impossible to source from trustworthy manufacturers. Good acid washed carbon shouldn't inherently be harmful to the printer (the acids are supposed to should stay locked inside the carbon), but it will catch a lesser range of VOCs and there's always the risk of that bad batch that has lots of acid residue left - so its best to avoid.
-	* **Don't wash carbon** meant for air filtration. You will just bind water and water electrolytes to the carbon, so even if you dry it afterwards you will have lost a noticable percentage of capacity. If you have dusty carbon, blow away the dust (for a micro cartridge, blowing harmonica style out a window is a good option).
-  * **IMPORTANT**! Since first release the *varying quality carbon out there has become increasingly evident*. Users has both gotten bad carbon as well as outright dangerous stuff (in one case oxidizing most metal surfaces in a new Voron in minutes. Be sure to vet your carbon supplier! 
-  * If you wish to *support the project* and get the best possible filtration at the same time, **Nevermore carbon** bags are available in several 3D printer shops and is a *safe* and optimal choice with the market leading filtration efficiency/longevity, and porosity optimized for 3D printing aromatic VOCs and use in Nevermore filters. Ther carbon comes *de-dusted* and *vacuum packed* to avoid shipping grinding and new dust generation, so you can use it right out of the bag with no pre-treatment. It also has the best adsorbtion specs of any carbon currently available on the market, up to **4x better** (*2x efficiency, 2x longevity*) compared to no-name carbon (surface area >1250, benzene adsorbtion up to 48pct.wt, CTC 80, ball pan hardness 98). The cost is the downside though, if you look for good suppliers you can probably find options that are 80% as good at 60% the cost;
+* 活性炭：4mm 活性炭颗粒。颗粒更受青睐，因为它们的粉尘较少，且压力降低比颗粒状活性炭（GAC）更小。如果你能找到的是 4x6 目 GAC，那它与 4mm 颗粒非常相似。4x8 目及更小的尺寸可能会因压力较大而影响气流，但对于通过的空气来说，过滤效率可能会有所提高。
 
 
-* **HEPAs**
-You will need four pieces, but you can safely buy multiples of that, they are cheap and you will have to replace the filters from time to time (when replacing the carbon).
+  * 在选择适用于 3D 打印机 VOC 吸附的最佳活性炭时，请寻找初级椰子壳或无烟煤活性炭，而非木质/沥青/木炭/竹子/木质素等。为什么它们更好呢？虽然有些高级的，如沥青活性炭，但同样也有更多低级的沥青碳。对于来自经过审查的供应商的初级椰子和无烟煤，您很难找到不适合 3D 打印机 VOC 过滤的劣质碳。等级和孔隙度很重要；
+	* 每个来源的孔隙度差异很大（例如，对于水族馆或私酒使用，您需要较大的大孔隙度来过滤较大的杂质，如油脂。因此，水/液体使用的活性炭具有较大的大孔区域，定义为＞100nm。打印机 VOC 通常小于 0.5 nm，这意味着为了获得最佳捕获率和效率，我们需要具有高微孔率的活性炭，定义为＜1nm)。
+	* 较高的碘含量 >1000 通常表明至少具有一定的微孔/中孔度，而较高的硬度（>95%）会在空气过滤中产生更少的粉尘。CTC 数值并不能很好地反映我们的 VOC，但甲苯/苯吸附（有时可用）是一个很好的指标。
+	* 避免使用酸洗活性炭。劣质酸洗活性炭残留物已经氧化了打印机！选择蒸汽激活的非酸洗活性炭。不使用 pH 处理过的活性炭，您还可以吸附更广泛的气体。将来，不同 pH 吸附剂的混合可能是最好的选择，但目前无法从可靠的制造商那里获得。优质酸洗活性炭本身不应对打印机造成危害（酸应该保持锁定在碳内部），但它会捕捉较少范围的 VOC，并且总是存在出现大量酸残留物的劣质批次的风险 - 因此最好避免使用。
+	* 不要清洗用于空气过滤的活性炭。这样做会将水和水电解质结合到碳上，因此即使稍后将其弄干，你也会损失一定比例的吸附容量。如果你的活性炭有灰尘，可以将灰尘吹走（对于微型滤芯，向窗外吹奏口琴式是一个好方法）。
+  * 重要提示！自首次发布以来，市面上碳质量的差异变得越来越明显。用户既可能得到劣质活性炭，也可能得到极为危险的物质（在一个例子中，仅用几分钟就使新 Voron 的大部分金属表面氧化）。一定要对你的活性炭供应商进行严格审查！
+  * 如果您希望支持这个项目，同时获得最好的过滤效果，Nevermore 活性炭袋在多家 3D 打印机商店有售，是市场上过滤效率/使用寿命最长的领导者，孔隙度针对 3D 打印芳香 VOC 和 Nevermore 过滤器进行了优化。这种碳经过除尘和真空包装，以避免运输研磨和新粉尘产生，因此您可以直接从袋子中使用它，无需预处理。它还具有市场上所有活性炭中最佳的吸附规格，比无名活性炭高出四倍（2倍效率，2倍使用寿命）（表面积 >1250, 苯吸附高达48pct.wt, CTC 80, 球盘硬度 98）。然而，成本是一个缺点，如果您寻找优质供应商，可能会找到价格为其60%且质量达到80%的选项。
 
-**PRINTED PARTS**
-* 300x300mm print bed minimum (the frame piece is a square 298mm by 278mm, so your printer needs to be able to print over the entire surface and watch out for any skirts extending more than 2 mm outside the print job if doing this on a 300 machine).
-* This was developed with and for **ABS+** material. Regular ABS *may* work depending on your printer, chamber heat and settings, but can also create *a lot of unnecessary woes*! Printing a full bed size piece **will cause warping** in warp prone materials - hence do consider ABS+. I print in titanX - an ABS+ material - on PEI with no issues. Since this will be positioned outside the printer, there is also the option to print in other materials. While I wouldn't print this in PLA if you plan on filtering a hot chamber that might reach above 60-70C under certain circumstances, PETG is probably fine. 
-	* I use 3 walls and 16% gyroid infill. It might be wise to go to 4%+40% - or even solid for maximum rigidity - but after several kilos of prototyping I'm minimizing waste...
-	* **Parts shrinkage.**  If using shrinking materials like ABS/ABS+/etc, parts shrinkage could be a factor. Parts do not always shrink evenly, for instance the square frame shrinks very little as its supported from all sides, while I needed to make the printer intake/exhaust piece 1% longer (with titanX ABS+ type filament) to fit into the frame. The other pieces have been usable as is without shrinkage compensation.
+
+* **高效颗粒空气过滤器（HEPA）**
+您需要四块过滤器，但您可以放心地购买更多，因为它们价格便宜，您需要不时更换过滤器（在更换活性炭时）。
+
+**打印件**
+* 最小需要 300x300mm 的打印床（框架部件是一个 298mm x 278mm 的正方形，所以您的打印机需要能够在整个表面上打印，并注意观察是否有任何超过 2 毫米的裙边在 300 毫米的机器上拓展）。
+* 这是为 ABS+ 材料开发的。常规 ABS 可能会根据您的打印机、恒温室热度和设置而有效，但也可能带来很多不必要的麻烦！打印一个全床尺寸的部件会导致容易翘曲的材料产生翘曲 - 因此，请考虑使用 ABS+。我在 PEI 上使用 titanX（一种 ABS+ 材料）打印，没有问题。由于这个部件将放置在打印机外部，您也可以选择其他材料进行打印。虽然我不建议在 PLA 中打印该部件，特别是当您计划过滤一个在某些情况下可能达到 60-70 摄氏度以上的高温恒温室时，但 PETG 可能就没问题了。
+	* 我使用的是 3 层壁和 16% 的gyroid填充。可能更明智的做法是使用 4%+40% 的设置，甚至实心部件以获得最大的刚性，但在进行了数千克的原型制作之后，我正努力减少浪费…
+	* 零件收缩。如果使用象ABS/ABS+等收缩材料，零件收缩可能是一个因素。零件并不总是均匀收缩，例如正方形框架因为得到四周的支撑而收缩很少，而我需要使打印机进气/排气部分（使用 titanX ABS+ 类型的线材）延长 1% 以适应框架。其他部件在没有收缩补偿的情况下都可以使用。
   
