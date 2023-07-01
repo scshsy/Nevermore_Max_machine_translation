@@ -17,7 +17,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-** 原版链接 https://github.com/nevermore3d/Nevermore_Max **
+**原版链接 https://github.com/nevermore3d/Nevermore_Max**
 
 **测试版文件和CAD模型都已经在github上了。** 
 
