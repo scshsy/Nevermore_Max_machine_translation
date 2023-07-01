@@ -19,7 +19,7 @@
 
 **原版链接 https://github.com/nevermore3d/Nevermore_Max **
 
-**测试版文件和CAD模型都已经在线上了。** 
+**测试版文件和CAD模型都已经在github上了。** 
 
 
 _至少需要300x300毫米的打印床！!_
